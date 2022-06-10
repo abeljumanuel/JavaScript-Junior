@@ -45,12 +45,15 @@ alert("hello from other file!!")
 - Definition: Space in memory to store data, this data could change this value or data acording to requirement of the developer.
 - Example
 - Kind of Data: (String, Number, Boolean)
+- *Primitive data* is a kind of data that came with the language
 - Special Cases: Undefined, Null, NaN;
-- Scope
-- Hoisting
+> *Undefined* the variable exists but is not defined yet
+> *Null* was inicialized but has been loaded with null data
+- *Scope* an enviroment limited by an space.
+- *Hoisting* define when is posible to create data and execute process with this data
 - Kind of Variables (let, var & const)
-> *let* just exist into a enviroment limited.
-> *var* exist into all the project.
+> *let* just exist into a enviroment limited called *Scope*.
+> *var* exist into all the project, so is not limited by the *Scope*.
 > The *const* can change his value, we can define its value just once.
 - Create multiple variables (separated by commas) -> let name1 = "George", name2="Jhon", name3="Mary";
 - Test with prompt

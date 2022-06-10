@@ -44,10 +44,13 @@ alert("hello from other file!!")
 ## 5. Variables
 - Definition: Space in memory to store data, this data could change this value or data acording to requirement of the developer.
 - Example
-- Kind of Data: (String, Number, Boolean, Symbol)
+- Kind of Data: (String, Number, Boolean)
 - Special Cases: Undefined, Null, NaN;
 - Scope
 - Hoisting
 - Kind of Variables (let, var & const)
+> *let* just exist into a enviroment limited.
+> *var* exist into all the project.
+> The *const* can change his value, we can define its value just once.
 - Create multiple variables (separated by commas) -> let name1 = "George", name2="Jhon", name3="Mary";
 - Test with prompt
